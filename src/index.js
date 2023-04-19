@@ -1,17 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import  Person  from './Components/Person';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { Todolist } from './Components/Todolist';
+import Product from './Components/Products/product';
+import ShoppingList from './Components/ShoppingList/shoppinglist';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+   // <App></App>
+//    self closing tag
+    <div>
     <App />
-  </React.StrictMode>
+    
+    {/* <Person></Person>
+    <Todolist></Todolist> */}
+    {/* <Product></Product> */}
+    <ShoppingList></ShoppingList>
+    </div>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

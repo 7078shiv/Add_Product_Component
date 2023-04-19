@@ -1,0 +1,15 @@
+.person{
+    border: 2px solid black;
+    width: fit-content;
+    margin: 40px auto;
+    font-size: 24px;
+    background-color: chocolate;
+    padding: 20px;
+    box-shadow: 2px 5px 50px black;
+    
+}
+
+.person:hover{
+    width: 50vw;
+    height: 50vh;
+}

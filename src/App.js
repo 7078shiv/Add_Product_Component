@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import shoppinglist from './Components/ShoppingList/shoppinglist';
+// import Props from './Components/Props';
+
+
+// basily this HTML code  is converted into javascript
+// this is a jsx not acctually a html.
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <shoppinglist/>
     </div>
+    // <div>
+    // <div>
+    //   <p>This is react component</p>
+    // </div>
+
+    // <div>
+    //     <p>This is react component</p>
+    // </div>
+    //   </div>
   );
 }
-
 export default App;

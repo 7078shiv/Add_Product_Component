@@ -1,0 +1,16 @@
+form{
+    border: 2px solid black;
+    margin: 100px auto;
+    padding: 30px;
+    width:500px;
+    background-image: url("https://previews.123rf.com/images/mareandmare/mareandmare1212/mareandmare121200010/16888305-an-abstract-whitish-blue-background-in-the-form-of-ice-crystals.jpg");
+}
+
+div{
+    margin: 30px auto;
+}
+
+form input{
+    margin: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,7 @@
+.product{
+ display: inline-block; 
+}
+
+.product > img{
+    height:400px;
+}
